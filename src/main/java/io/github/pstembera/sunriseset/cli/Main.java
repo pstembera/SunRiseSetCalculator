@@ -18,7 +18,7 @@ import java.util.Locale;
  * Command line entry point.
  *
  * <pre>
- * java -jar sun_rise_set.jar --lat 50.0755 --lon 14.4378 --date 2026-06-21 --tz Europe/Prague
+ * java -jar SunRiseSetCalculator.jar --lat 50.0755 --lon 14.4378 --date 2026-06-21 --tz Europe/Prague
  * </pre>
  */
 public final class Main {
@@ -30,7 +30,7 @@ public final class Main {
     public static final int EXIT_USAGE = 2;
 
     private static final String USAGE = """
-            Usage: sun_rise_set --lat <degrees> --lon <degrees> [--date <yyyy-MM-dd>] [--tz <zone>]
+            Usage: SunRiseSetCalculator --lat <degrees> --lon <degrees> [--date <yyyy-MM-dd>] [--tz <zone>]
 
             Options:
               --lat <degrees>    Latitude, -90 to 90 (required)
@@ -40,8 +40,8 @@ public final class Main {
               -h, --help         Show this help
 
             Examples:
-              sun_rise_set --lat 50.0755 --lon 14.4378 --tz Europe/Prague
-              sun_rise_set --lat -33.8688 --lon 151.2093 --date 2026-12-21 --tz Australia/Sydney
+              SunRiseSetCalculator --lat 50.0755 --lon 14.4378 --tz Europe/Prague
+              SunRiseSetCalculator --lat -33.8688 --lon 151.2093 --date 2026-12-21 --tz Australia/Sydney
             """;
 
     private Main() {

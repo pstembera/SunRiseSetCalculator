@@ -25,7 +25,7 @@ class MainTest {
     @DisplayName("--help prints usage and succeeds")
     void help() {
         assertEquals(Main.EXIT_OK, run("--help"));
-        assertTrue(outText().contains("Usage: sun_rise_set"));
+        assertTrue(outText().contains("Usage: SunRiseSetCalculator"));
         assertTrue(outText().contains("--tz"));
     }
 

@@ -1,6 +1,6 @@
-# sun_rise_set
+# SunRiseSetCalculator
 
-[![CI](https://github.com/pstembera/sun_rise_set/actions/workflows/ci.yml/badge.svg)](https://github.com/pstembera/sun_rise_set/actions/workflows/ci.yml)
+[![CI](https://github.com/pstembera/SunRiseSetCalculator/actions/workflows/ci.yml/badge.svg)](https://github.com/pstembera/SunRiseSetCalculator/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Java 21](https://img.shields.io/badge/java-21-orange.svg)](https://adoptium.net/)
 
@@ -24,15 +24,15 @@ explicitly instead of producing nonsense values.
 ## Quick start
 
 ```powershell
-git clone https://github.com/pstembera/sun_rise_set.git
-cd sun_rise_set
+git clone https://github.com/pstembera/SunRiseSetCalculator.git
+cd SunRiseSetCalculator
 .\mvnw.cmd verify          # build and run the tests (use ./mvnw on Linux/macOS)
 ```
 
 Run the CLI:
 
 ```powershell
-java -jar target/sun_rise_set.jar --lat 50.0755 --lon 14.4378 --date 2026-06-21 --tz Europe/Prague
+java -jar target/SunRiseSetCalculator.jar --lat 50.0755 --lon 14.4378 --date 2026-06-21 --tz Europe/Prague
 ```
 
 ```
@@ -47,7 +47,7 @@ Day length: 16h 23m 12s
 ## Command line
 
 ```
-Usage: sun_rise_set --lat <degrees> --lon <degrees> [--date <yyyy-MM-dd>] [--tz <zone>]
+Usage: SunRiseSetCalculator --lat <degrees> --lon <degrees> [--date <yyyy-MM-dd>] [--tz <zone>]
 
 Options:
   --lat <degrees>    Latitude, -90 to 90 (required)
@@ -65,7 +65,7 @@ easier to script against than the time zone of the machine.
 ### Polar day and polar night
 
 ```powershell
-java -jar target/sun_rise_set.jar --lat 69.6492 --lon 18.9553 --date 2026-06-21 --tz Europe/Oslo
+java -jar target/SunRiseSetCalculator.jar --lat 69.6492 --lon 18.9553 --date 2026-06-21 --tz Europe/Oslo
 ```
 
 ```

@@ -24,7 +24,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 $root = Split-Path -Parent $PSScriptRoot
-$jar = Join-Path $root "target\sun_rise_set.jar"
+$jar = Join-Path $root "target\SunRiseSetCalculator.jar"
 
 if (-not (Test-Path $jar)) {
     throw "Jar not found at $jar. Build it first: .\mvnw.cmd -DskipTests package"

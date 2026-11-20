@@ -35,7 +35,7 @@ if [[ -z "$LAT" || -z "$LON" ]]; then
 fi
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-JAR="$ROOT/target/sun_rise_set.jar"
+JAR="$ROOT/target/SunRiseSetCalculator.jar"
 
 if [[ ! -f "$JAR" ]]; then
     echo "Jar not found at $JAR. Build it first: ./mvnw -DskipTests package" >&2

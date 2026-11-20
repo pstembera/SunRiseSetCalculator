@@ -5,13 +5,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.pstembera</groupId>
-  <artifactId>sun_rise_set</artifactId>
+  <artifactId>SunRiseSetCalculator</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
 
-  <name>sun_rise_set</name>
+  <name>SunRiseSetCalculator</name>
   <description>Sunrise and sunset calculator for GPS coordinates and a date, based on the NOAA solar equations.</description>
-  <url>https://github.com/pstembera/sun_rise_set</url>
+  <url>https://github.com/pstembera/SunRiseSetCalculator</url>
 
   <licenses>
     <license>
@@ -45,7 +45,7 @@
   </dependencies>
 
   <build>
-    <finalName>sun_rise_set</finalName>
+    <finalName>SunRiseSetCalculator</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

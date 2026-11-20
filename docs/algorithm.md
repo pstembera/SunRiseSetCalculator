@@ -1,6 +1,6 @@
 # Algorithm
 
-This document explains how `sun_rise_set` computes sunrise and sunset, why the
+This document explains how `SunRiseSetCalculator` computes sunrise and sunset, why the
 constants are what they are, and where the remaining error comes from.
 
 ## 1. Model
