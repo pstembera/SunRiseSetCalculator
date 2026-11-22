@@ -154,3 +154,6 @@ Requires JDK 21. Maven is not required, the wrapper downloads it.
 ## License
 
 [MIT](LICENSE) © 2026 pstembera
+
+First review done.
+
